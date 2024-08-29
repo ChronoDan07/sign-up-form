@@ -10,6 +10,6 @@ A project from [The Odin Project](https://www.theodinproject.com) curriculum. Th
 
 ## Credits
 
-- Background image from [Unsplash](https://unsplash.com/photos/two-person-standing-on-mountain-peak-V0ewiS1dGIE) by [Photographer Name](https://unsplash.com/@onnia).
+- Background image from [Unsplash](https://unsplash.com/photos/two-person-standing-on-mountain-peak-V0ewiS1dGIE) by [Onni Anttoora](https://unsplash.com/@onnia).
 - Odin logo used for thematic design.
 - Font: [Norse Bold](https://www.dafont.com/norse.font).
