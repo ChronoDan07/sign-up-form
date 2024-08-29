@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main-container">
+    <div class="image-container">
+      <img class="img-1" src="resources\mountains.jpg">
+      <div class="image-band">
+        <img class="img-2" src="resources\odin-lined.png">
+        ODIN
+      </div>
+      <div class="sources">
+        Photo by <a href="https://unsplash.com/photos/two-person-standing-on-mountain-peak-V0ewiS1dGIE">Onni Anttoora</a>
+        on
+        <a href="https://unsplash.com/">Unsplash</a>   
+      </div>      
+    </div>
+    <div class="right-container">
+        <div class="header-container">
+            <span class="paragraph">
+              <p>This is not a real online service! You know you need something like 
+                this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+              <p>You <i>know</i> you want to.</p>
+              </span>
+            
+        </div>
+        <div class="form-container">
+            <div>Let's do this!</div>
+            <form id="form" action="#" method="post">
+              <div class="names">
+                <div class="group">
+                  <label for="first_name">FIRST NAME:</label>
+                  <input type="text" id="first_name" placeholder="Leif" required>
+                </div>
+                <div class="group">
+                  <label for="last_name">LAST NAME:</label>
+                  <input type="text" id="last_name" placeholder="Eriksson" required>
+                </div>
+              </div>
+              <div class="contacts">
+                <div class="group">
+                  <label for="email">EMAIL:</label>
+                  <input type="email" id="email" placeholder="you@example.com" required>
+                </div>
+                <div class="group">
+                  <label for="ph_number">PHONE NUMBER:</label>
+                  <input type="text" title="Please enter a valid phone number"
+                   id="ph_number" placeholder="XXX-XXX-XXXX" maxlength="10"
+                    pattern="\d{10}" required>
+                </div>  
+              </div>
+              <div class="passwords">
+                <div class="group">
+                  <label for="pass">PASSWORD:</label>
+                  <input type="password" id="pass" placeholder="*************" required>
+                  <div id="validation">*Passwords do not match</div>
+                </div>
+                <div class="group">
+                  <label for="c_pass">CONFIRM PASSWORD:</label>
+                  <input type="password" id="c_pass" placeholder="*************" required>
+                </div>   
+              </div>
+        </div>
+        <div class="apply-container">
+          <div class="box">
+            <div class="button">
+              <button type="submit">Create Account</button>
+            </div>
+            <div class="login">
+              Already have an account? <a href="#">Log in</a>
+            </div>
+          </div>
+        </div>
+        </form>  
+    </div>  
+</div>
+<script src="main.js"></script>
+</body>
+</html>
